@@ -1,0 +1,94 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
+body{
+font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sans-serif;
+font-size: 1em;
+line-height: 120%;
+background-color: #FAFAFA;
+}
+
+
+span{
+color: #282828;
+text-decoration: none;
+}
+
+a:link{
+color: #BB0011;
+text-decoration: none;
+}
+a:active{
+color: #CCCCCC;
+text-decoration: none;
+}
+a:visited{
+color: #777777;
+text-decoration: none;
+}
+a:hover{
+color: #AAAAAA;
+text-decoration: none;
+}
+
+blockquote{
+font-family: "Courier New"
+}
+
+abbr{cursor: help;}
+
+table,tr,td{
+border: 1px solid #000000;
+border-collapse: collapse;
+}
+
+h1,h2,h3,h4,h5,h6{
+margin-top: -0.125em;
+line-height: 111%;
+}
+
+.with-awesome{font-family: "Noto Sans KR", "Noto Sans JP", "Nanum Gothic", "Malgun Gothic", sans-serif;}
+
+.notyetavail{color: #DEDEDE;}
+
+.fonts_small{font-size: 72%;}
+
+
+#headtext{
+text-align: center;
+background-color: #F5F8FA;
+padding-top: 1em;
+padding-bottom: 1em;
+border-radius: 1.4em;
+}
+
+#image_mainpage,#time_mainpage,#today_date{
+font-size: 0.85em;
+text-align: center;
+}
+
+#profile_image{
+width: 96px;
+height: auto;
+display: block;
+margin: auto;
+margin-top: 1.5em;
+border-radius: 50% 50%;
+}
+
+#title_mainpage{
+font-weight: bold;
+text-align: center;
+font-size: 1.3em;
+}
+
+label{font-size: 80%;}
+
+#author_info,#recent_edit{
+text-align: right;
+padding-left: 0.5em;
+padding-right: 0.5em;
+font-size: 80%;
+}

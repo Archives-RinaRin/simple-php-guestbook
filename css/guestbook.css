@@ -1,0 +1,145 @@
+body{
+ font-size: 0.9em !important;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: auto;
+}
+
+input[type="text"]{
+ font-size: 1.2em;
+ border: 1px solid #000000;
+}
+input[type="url"]{
+ font-size: 1.2em;
+ border: 1px solid #000000;
+}
+input[type="password"]{
+ font-size: 1.2em;
+ border: 1px solid #000000;
+}
+input[type="email"]{
+ font-size: 1.2em;
+ border: 1px solid #000000;
+}
+
+textarea{
+ font-family: sans-serif;
+ font-size: 1.2em;
+}
+
+#today_datetime{
+ text-align: center;
+ padding-left: 0.5em;
+ padding-right: 0.5em;
+ font-size: 0.8em;
+}
+
+.post_buttons{
+ padding: 0.5em 1.5em 0.5em 1.5em;
+ font-size: 1.2em;
+ background-color: #FFFFFF;
+ border: 1px solid #AABBCC;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+.guestbook_posts{margin: 1em;}
+
+.post_info{
+ margin: 1em auto;
+ width: 95%;
+}
+
+.post_num,.post_user,.post_time,.post_del{padding: 0.25em;}
+
+.form_field{
+ padding: 0.15em;
+ font-size: 0.9em;
+}
+
+.req_field{font-weight: bold;}
+
+.field_name{
+ width: 6em;
+ padding: 0.15em;
+ font-size: 0.9em;
+ text-align: center;
+}
+
+.guestbook_input_a{
+ width: 12em;
+ box-sizing: border-box;
+}
+
+.guestbook_input_b{
+ width: 80%;
+ box-sizing: border-box;
+}
+
+#guestbook_body{
+ margin: auto;
+ padding: 0;
+ width: 60%;
+ height: auto;
+}
+
+#guestbook_form{
+ margin: auto;
+ width: 95%;
+ height: 72%;
+}
+
+#post_content{
+ resize: vertical;
+ width: 95%;
+ box-sizing: border-box;
+ height: 12em;
+}
+
+#del_confirm{
+ text-align: center;
+ vertical-align: middle;
+ margin: auto;
+}
+
+#master_login_form{
+ position: absolute;
+ text-align: center;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+@media (max-width: 768px){
+ .guestbook_input_a{
+  width: 12em;
+  box-sizing: border-box;
+ }
+
+ .guestbook_input_b{
+  width: 100%;
+  box-sizing: border-box;
+ }
+
+ #guestbook_body{
+  font-size: 0.85em;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+ }
+
+ #guestbook_form{
+  margin: auto;
+  width: 95%;
+  height: 72%;
+ }
+
+ #post_content{
+  resize: vertical;
+  width: 95%;
+  box-sizing: border-box;
+  height: 12em;
+ }
+}
