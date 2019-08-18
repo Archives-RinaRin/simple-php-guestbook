@@ -15,11 +15,13 @@ if(isset($_SESSION["gb_master_uname"]) && isset($_SESSION["gb_master_key"])){exi
 <link rel="stylesheet" type="text/css" href="./css/guestbook.css" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<!-- 구글 recaptcha 실행 부분 (아래 주소의 'your-recaptcha-key' 부분에 자신이 발급받은 키를 입력한다) -->
 <script src="https://www.google.com/recaptcha/api.js?render=your-recaptcha-key"></script>
 <script type="text/javascript">
 <!--
+// 구글 recaptcha 실행 부분 ('your-recaptcha-key' 부분에 자신이 발급받은 키를 입력한다)
 grecaptcha.ready(function(){
- grecaptcha.execute("your-recaptcha-key",{action: "guestbook_admin"})
+ grecaptcha.execute("your-recaptcha-key",{action: "guestbook"})
  .then(function(token) {
   document.getElementById("g-recaptcha-response").value = token;
  });
