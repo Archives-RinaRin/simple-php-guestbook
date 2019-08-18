@@ -10,7 +10,7 @@ PHP 기반 간단 방명록 소스입니다. **별도의 프레임워크나 외�
 
 ## 설치방법
 - [이 파일](https://github.com/Senarin/simple-php-guestbook/archive/master.zip)을 다운로드하여 적당한 곳에 압축을 해제합니다.
-- 압축 해제한 폴더 내의 ```global_config.php``` 및 ```index.php``` 파일을 자신의 서버 환경에 맞게 수정합니다.
+- 압축 해제한 폴더 내의 ```global_config.php``` 및 ```index.php```, ```master_login.php``` 파일을 자신의 서버 환경에 맞게 수정합니다.
 - FTP 등을 통해 압축 해제한 폴더를 자신의 서버의 웹 루트 디렉토리에 업로드 합니다.
 - 업로드한 주소로 접속하면 자동으로 테이블이 생성됩니다. (예: 자신의 서버 주소가 ```example.com```이고 업로드한 경로가 ```/guestbook/```이라면 ```http://example.com/guestbook/```로 접속해주시면 됩니다.)
 
