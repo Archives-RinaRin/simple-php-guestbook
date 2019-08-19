@@ -22,7 +22,7 @@ else{exit("비정상적인 로그인 시도가 감지되었습니다.");}
 
 session_start();
 $_SESSION["gb_master_uname"] = $_POST["master_uname"];
-$_SESSION["gb_master_key"] = sha1($_POST["master_pwd"]);
+$_SESSION["gb_master_key"] = hash("sha256",$_POST["master_pwd"]);
 
 header("Location: ./");
 ?>
