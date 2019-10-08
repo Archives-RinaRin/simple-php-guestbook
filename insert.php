@@ -46,7 +46,7 @@ $_usermail = $_master_mail;
 $_userhome = $_master_website;
 }else{$_is_admin = 0;}
 
-$_content_query = "INSERT INTO guestbook (name, pass, home, mail, comment, useraddr, rdate, approved) VALUES ";
+$_content_query = "INSERT INTO ${_use_tablename} (name, pass, home, mail, comment, useraddr, rdate, approved) VALUES ";
 $_content_query .= "('${_username}','${_userpwd}','${_userhome}','${_usermail}','${_post_content}','${_useraddr}',now(),${_is_admin});";
 
 $_result = mysqli_query($_db_connect,$_content_query);
